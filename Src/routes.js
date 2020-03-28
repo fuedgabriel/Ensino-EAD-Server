@@ -23,6 +23,7 @@ routes.post('/Matter', Matter.insert);
 //Questions
 routes.post('/Questions', Questions.insert);
 routes.get('/Questions', Questions.selectAll);
+routes.get('/Questions/search', Questions.searchQuestions);
 
 
 

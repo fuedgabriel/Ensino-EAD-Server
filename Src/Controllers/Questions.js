@@ -8,12 +8,9 @@ module.exports = {
         const cat = await Questions.create(req.body);
         return res.json(cat);
     },
-    async selectIdUser(req, res) {
-        const cat = await Questions.find({ Id_User: req.params.id });
-        return res.json(cat);
-    },
-    async selectTipo(req, res) {
-        const cat = await Questions.find({ Tipo: req.params.id });
+    async searchQuestions(req, res) {
+        const { matter = B } = req.query;
+        const cat = await Questions.find({ Matter: matter });
         return res.json(cat);
     },
     async selectAll(req, res) {

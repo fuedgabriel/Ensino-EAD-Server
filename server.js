@@ -11,7 +11,7 @@ app.use(cors());
 
 //Iniciando DB
 
-mongoose.connect('', { useUnifiedTopology: true, useNewUrlParser: true })
+mongoose.connect('mongodb+srv://adm:adm@sp-tqgpa.gcp.mongodb.net/Imperium?retryWrites=true&w=majority', { useUnifiedTopology: true, useNewUrlParser: true })
 
 
 requiredir('./Src/Models');
