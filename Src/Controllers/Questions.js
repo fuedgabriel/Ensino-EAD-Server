@@ -10,7 +10,9 @@ module.exports = {
     },
     async searchQuestions(req, res) {
         const { matter = B } = req.query;
-        const cat = await Questions.find({ Matter: matter });
+        var sp = matter.split('|')
+        const cat = await Questions.find({ Matter: sp[0] });
+        cat.splice(0, sp[1])
         return res.json(cat);
     },
     async selectAll(req, res) {
