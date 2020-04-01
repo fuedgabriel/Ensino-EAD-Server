@@ -6,6 +6,7 @@ const cat = require('./Controllers/UsersController');
 const Support = require('./Controllers/Support');
 const Questions = require('./Controllers/Questions');
 const Matter = require('./Controllers/Matter');
+const Documents = require('./Controllers/Documents');
 
 //Users
 routes.post('/User', cat.insert);
@@ -24,6 +25,10 @@ routes.post('/Matter', Matter.insert);
 routes.post('/Questions', Questions.insert);
 routes.get('/Questions', Questions.selectAll);
 routes.get('/Questions/search', Questions.searchQuestions);
+//Documents
+routes.post('/Documents', Documents.insert);
+routes.get('/Documents', Documents.selectAll);
+routes.get('/Documents/search', Documents.searchDocuments);
 
 
 
