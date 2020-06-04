@@ -15,14 +15,14 @@ routes.get('/Support/id/:id', Support.selectIdUser);
 routes.get('/Support/type/:id', Support.selectTipo);  
 routes.get('/Support/all', Support.selectAll);  
 routes.post('/Support', Support.insert);  
-##//Matter
-routes.get('/Matter', Matter.selectAll);
-routes.post('/Matter', Matter.insert);
-##//Questions
-routes.post('/Questions', Questions.insert);
-routes.get('/Questions', Questions.selectAll);
-routes.get('/Questions/search', Questions.searchQuestions);
-##//Documents
-routes.post('/Documents', Documents.insert);
-routes.get('/Documents', Documents.selectAll);
-routes.get('/Documents/search', Documents.searchDocuments);
+##//Matter  
+routes.get('/Matter', Matter.selectAll);  
+routes.post('/Matter', Matter.insert);  
+##//Questions  
+routes.post('/Questions', Questions.insert);  
+routes.get('/Questions', Questions.selectAll);    
+routes.get('/Questions/search', Questions.searchQuestions);  
+##//Documents  
+routes.post('/Documents', Documents.insert);  
+routes.get('/Documents', Documents.selectAll);  
+routes.get('/Documents/search', Documents.searchDocuments);  
