@@ -1,10 +1,10 @@
-# Aplicação
-1. abra o cmd
-1. acesse a pasta com cmd
-1. use o comando Yarn dev
+# Aplicação  
+1. abra o cmd  
+1. acesse a pasta com cmd  
+1. use o comando Yarn dev  
 
-Conexão:
-127.0.0.1:7844
+Conexão:  
+127.0.0.1:7844  
 ##//Users  
 routes.post('/User', cat.insert);  
 routes.post('/User/id', cat.selectbyid);  
