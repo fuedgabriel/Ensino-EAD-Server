@@ -5,16 +5,16 @@
 
 Conexão:
 127.0.0.1:7844
-##//Users
-routes.post('/User', cat.insert);
-routes.post('/User/id', cat.selectbyid);
-routes.get('/User/all', cat.selectall);
-routes.put('/User/', cat.update);
-##//Support
-routes.get('/Support/id/:id', Support.selectIdUser);
-routes.get('/Support/type/:id', Support.selectTipo);
-routes.get('/Support/all', Support.selectAll);
-routes.post('/Support', Support.insert);
+##//Users  
+routes.post('/User', cat.insert);  
+routes.post('/User/id', cat.selectbyid);  
+routes.get('/User/all', cat.selectall);  
+routes.put('/User/', cat.update);  
+##//Support  
+routes.get('/Support/id/:id', Support.selectIdUser);  
+routes.get('/Support/type/:id', Support.selectTipo);  
+routes.get('/Support/all', Support.selectAll);  
+routes.post('/Support', Support.insert);  
 ##//Matter
 routes.get('/Matter', Matter.selectAll);
 routes.post('/Matter', Matter.insert);
