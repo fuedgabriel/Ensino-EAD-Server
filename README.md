@@ -13,7 +13,6 @@
 | routes.post('/User/id', cat.selectbyid);                     | routes.get('/Support/type/:id', Support.selectTipo);           | routes.post('/Matter', Matter.insert);   |
 | routes.get('/User/all', cat.selectall);                      | routes.get('/Support/all', Support.selectAll);                 |                                          |
 | routes.put('/User/', cat.update);                            | routes.post('/Support', Support.insert);                       |                                          |
-| -------------------------------------------------------------| -------------------------------------------------------------- | ---------------------------------------- |
 | `Questions`                                                  | `Documents`                                                    | `NULL`                                 |
 | -------------------------------------------------------------| -------------------------------------------------------------- | ---------------------------------------- |
 | routes.post('/Questions', Questions.insert);                 | routes.post('/Documents', Documents.insert);                   |                                          |
