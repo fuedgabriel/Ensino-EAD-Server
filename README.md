@@ -1,8 +1,8 @@
 ## 🎇Instructions
 
-1. abra o cmd  
-2. acesse a pasta com cmd  
-3. use o comando Yarn dev  
+1. open cmd
+2. access the folder with cmd
+3. use the Yarn dev command
 
 
 ## Connection
