@@ -14,7 +14,6 @@
 | routes.get('/User/all', cat.selectall);                      | routes.get('/Support/all', Support.selectAll);                 |                                          |
 | routes.put('/User/', cat.update);                            | routes.post('/Support', Support.insert);                       |                                          |
 | `Questions`                                                  | `Documents`                                                    | `NULL`                                 |
-| -------------------------------------------------------------| -------------------------------------------------------------- | ---------------------------------------- |
 | routes.post('/Questions', Questions.insert);                 | routes.post('/Documents', Documents.insert);                   |                                          |
 | routes.get('/Questions', Questions.selectAll);               | routes.get('/Documents', Documents.selectAll);                 |                                          |
 | routes.get('/Questions/search', Questions.searchQuestions);  | routes.get('/Documents/search', Documents.searchDocuments);    |                                          |
